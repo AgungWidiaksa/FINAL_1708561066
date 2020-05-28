@@ -1,0 +1,219 @@
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    letter-spacing:0px;
+}
+
+.log{
+    background-color: #4183D7;
+    border-radius: 30px;        
+    width: 50%;
+    height: 100%;
+    padding: 50px;
+    margin: 40px auto;
+    font-family: Times New Rowman;
+    color: white;
+}
+
+.log img {
+    border-radius: 40px;
+    background-color: #4183D7;
+    width:25%;
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input[type=submit] {
+  font-family: Times New Rowman;
+  width: 100%;
+  background-color: #FFD700;
+  color: #4183D7;
+  font-weight: bold;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+#head{
+    margin: 0 auto;
+    width: 1000px;
+    height: auto;
+}
+#gambarutama{
+    position: relative;
+    width: 740px;
+    height: 270px;
+    float: right;
+    border:0px solid;
+    border-bottom-right-radius: 50px;
+    overflow: hidden;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+}
+    #gambarutama img{
+        width: 100%;
+        height: 100%;
+    }
+    #gambarutama p{
+        padding: 10px;
+        text-align: center;
+        color: #ffdc73;
+        font-size: 25px;
+    }
+#content1{
+    float: left;
+    width: 250px;
+    height:auto;
+}
+#logo{
+    display: block;
+    padding-top: 35px;
+    border:0px solid;
+    border-top-left-radius: 50px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    background-color: #1a237e;
+    width: 250px;
+    height: 270px;
+}
+    #logo img{
+        width: 250px;
+        height: 220px;
+    }
+#artikel{
+    padding: 12px;
+    margin-top:10px;
+    height: 45px;
+    background-color: #1a237e;
+    width: 258px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    border-bottom-left-radius: 10px;
+}
+    #artikel p{
+        margin: 0px;
+        color: #ffdc73;
+        text-align: center;
+    }
+#artikellist{
+    margin-top: 10px;
+}
+    #artikellist ul{
+        box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 250px;
+        background-color: #ffdc73;
+    }
+    #artikellist li{
+        border-bottom-style: dotted;
+        border-bottom-color: #281e5a;
+        border-bottom-width: thin;
+    }
+    #artikellist li:last-child {
+        border-bottom:none;
+    }
+    #artikellist li a{
+        padding: 20px 16px;
+        width: 100%;
+        height: 100%;
+        text-decoration: none;
+        display: block;
+        color: #1a237e;
+    }
+    #artikellist li a:hover{
+        color: white;
+    }
+#menu{
+    background-color: #1a237e;
+    margin-top: 10px;
+    width: 740px;
+    height:45px;
+    float: right;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, .5);
+    border-bottom-right-radius: 10px;
+}
+    #menu ul {
+        height: 100%;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    #menu li{
+        border-right:2px solid #3949ab;
+        height: 100%;
+        float: left;
+    }
+    #menu li:last-child{
+        border-right: none;
+    }
+    #menu li a:hover {
+        height: 100%;
+        background-color: #2196f3;
+    }
+    #menu li a {
+        display: block;
+        color: #ffdc73;
+        text-align: center;
+        padding: 12px 20px;
+        text-decoration: none;
+    }
+#content2{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    width: 740px;
+    height: auto;
+    float: right;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    background: #ffdc73;
+    padding: 10px;
+}
+    .h1content2{
+        padding-left: 10px;
+        padding-right:10px;
+    }
+    .pcontent2{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+.gambar {
+    position: relative;
+    margin-left: 10px;
+    display: inline-block;
+}
+    .gambar img{
+        width: 205px;
+        height: 100px;
+        margin-left: 10px;
+        margin-right: 7px;
+    }
+.kontak ul {
+    margin: 0px;
+    float: left;
+    position: relative;
+}
+    .kontak ul li {
+        list-style: none;
+    }
+#clear{
+    clear: both;
+}
+#end{
+    margin-top: 10px;
+    width: auto;
+    height: 70px;
+    background-color: #1a237e;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    padding: 22px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+    #end p {
+        margin: 0px;
+        color:#ffdc73;
+        text-align: center;
+    }
